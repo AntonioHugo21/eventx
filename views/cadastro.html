@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Eventos</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="description" content="Cadastre seu Evento no EventX">
+
+    <script src="/assets/js/script.js"></script>
+</head>
+<body>
+    <section id="header"></section>
+    <main>
+        <h2>Preencha os detalhes do evento</h2>
+        <form action="" method="post" class="cadastro-formulario">
+            <div>
+                <label for="nome">Nome do Evento:</label>
+                <input type="text" name="nome" required>
+            </div>
+
+            <div>
+                <label for="data">Data:</label>
+                <input type="date" name="data" required>
+            </div> 
+
+            <div>
+                <label for="horario">Horário:</label>
+                <input type="time" name="horario" required>
+            </div>
+
+            <div>
+                <label for="local">Local:</label>
+                <input type="text" name="local" required>
+            </div>
+
+            <div>
+                <label for="descricao">Descrição:</label>
+                <textarea name="descricao" required></textarea>
+            </div>
+
+            <div>
+                <label for="email">E-mail para contato:</label>
+                <input type="email" name="email" required>
+            </div>
+
+            <div>
+                <label for="imagem">Imagem do Evento:</label>
+                <input type="file" name="imagem">
+            </div>
+
+            <button type="submit">Enviar dados</button>
+        </form>
+    </main>
+    <section id="footer"></section>
+</body>
+</html>
