@@ -11,18 +11,26 @@
     <section id="header"></section>
     <main>
         <h2>Fale conosco</h2>
-        <form action="#" method="post">
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" required> <br>
+        <form action="#" method="post" class="contato-formulario">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" required>
+            </div>
 
-            <label for="email">E-mail:</label>
-            <input type="email" name="email" required> <br>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" required>
+            </div>
+            
+            <div>
+                <label for="assunto">Assunto:</label>
+                <input type="text" name="assunto" required>
+            </div>
 
-            <label for="assunto">Assunto:</label>
-            <input type="text" name="assunto" required> <br>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea name="assunto" required></textarea> <br>
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="assunto" required></textarea>
+            </div>
 
             <button type="submit">Enviar mensagem</button>
         </form>

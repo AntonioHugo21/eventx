@@ -49,6 +49,20 @@ main {
     gap: 5px;
 }
 
+.contato-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+}
+
+.contato-formulario > div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
 footer {
     background-color: #f2f2f2;
     display: flex;
